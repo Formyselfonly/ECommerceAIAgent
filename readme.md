@@ -23,7 +23,6 @@ Designed for intelligent product search, order tracking, FAQ support, and person
 - **OpenAI GPT-3.5 / ChatGLM**
 - **FAISS for Vector Search**
 - **Local CSV / JSON / TXT as simulated databases**
-- Optional: **Gradio** for simple UI
 
 ---
 
@@ -56,6 +55,15 @@ ECommerceAIAgent/
 > "Recommend something suitable for office use."
 
 ---
+
+## 🔹 Next Step: Feature Enhancements (Lightweight)
+
+| Enhancement                       | Purpose                                                      | How to Implement                                             |
+| --------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 🧾 Add “Place Order” feature       | Simulate placing an order to complete the shopping flow      | Create an `OrderSubmissionTool` that writes to `my_orders.json` |
+| 🎯 Improve recommendation accuracy | Make recommendations more relevant by matching keyword + category | Add simple category filtering inside `recommendation_tool`   |
+| ❓ Enable multi-turn FAQ memory    | Allow follow-up questions like “How long?” → “Is it free?”   | Use `memory` and context-aware logic to track follow-ups     |
+| 📢 Format output responses better  | Make replies more readable with line breaks or symbols       | Use `f-strings` + markdown-style formatting                  |
 
 ## 🎯 Designed For
 
