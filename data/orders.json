@@ -1,0 +1,6 @@
+{
+  "ORD001": {"status": "shipped"},
+  "ORD002": {"status": "processing"},
+  "ORD003": {"status": "cancelled"},
+  "ORD004": {"status": "delivered"}
+}
