@@ -41,10 +41,7 @@ ECommerceAIAgent/
 │ ├── orders.json # Simulated order data
 │ └── faq.txt # FAQ corpus
 ├── rag/
-│ ├── embedder.py
 │ └── retriever.py
-└── utils/
-└── prompts.py # Prompt templates
 ```
 
 ## 💬 Sample Prompts
