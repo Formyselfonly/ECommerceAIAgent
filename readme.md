@@ -79,6 +79,3 @@ Built by [Shijie Zheng](https://github.com/Formyselfonly?tab=repositories) for t
 
 ---
 
-## 📎 License
-
-MIT License
